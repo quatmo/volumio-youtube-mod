@@ -1,5 +1,5 @@
 # volumio-youtube-mod
-Volumio Youtube download.  Download audio from Youtube with Opus audio (webm format).
+Volumio Youtube download.  Download audio from Youtube with Opus audio (webm format) for plugin Youtube - Volumio.
 Mod from https://github.com/volumio/volumio-plugins/tree/master/plugins/music_service/youtube
 
 1./ Off plugin Youtube. 
