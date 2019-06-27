@@ -29,7 +29,7 @@ sudo npm update
 
 Note:
 
-- For Youtube link when the play will show download notification, do not press download then 4 seconds later turn off the notification.
+- For Youtube link when the play will show download notification, do not press download then 4 seconds later turn off the modal popup.
 
 - If you are listening to this song or you want to download, just draggable seek the duration, it will download automatically saved to /mnt/INTERNAL/youtube
 
