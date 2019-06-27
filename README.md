@@ -5,11 +5,11 @@ Mod from https://github.com/volumio/volumio-plugins/tree/master/plugins/music_se
 1./ Off plugin Youtube. 
 Copy (overwrite) 3 files into: /data/plugins/music_service/youtube
 
-index.js
+- index.js
 
-package.json
+- package.json
 
-package-lock.json
+- package-lock.json
 
 
 2./ Make folder "youtube" 
