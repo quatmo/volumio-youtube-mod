@@ -21,12 +21,16 @@ or ssh
 
 mkdir /data/INTERNAL/youtube
 
-3./ 
+3./ SSH command
+
 cd /data/plugins/music_service/youtube
+
 sudo npm update
 
 4./ On plugin Youtube and reboot Volumio
 
 - For Youtube link when the play will show download notification, do not press download then 4 seconds later turn off the notification.
+
 - If you are listening to this song or you want to download, just draggable seek the duration, it will download automatically saved to /mnt/INTERNAL/ youtube
+
 - If you want to download multiple songs at the same time, just click download and click on the next download (it to download).
