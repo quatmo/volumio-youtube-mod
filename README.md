@@ -26,6 +26,9 @@ sudo npm update
 
 4./ On plugin Youtube and reboot Volumio
 
+
+Note:
+
 - For Youtube link when the play will show download notification, do not press download then 4 seconds later turn off the notification.
 
 - If you are listening to this song or you want to download, just draggable seek the duration, it will download automatically saved to /mnt/INTERNAL/youtube
