@@ -14,10 +14,6 @@ package-lock.json
 
 2./ Make folder "youtube" 
 
-from Windows \\volumio\Internal Storage\youtube
-
-or ssh
-
 mkdir /data/INTERNAL/youtube
 
 
