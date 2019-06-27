@@ -12,20 +12,21 @@ package.json
 package-lock.json
 
 
-2./ Make folder "youtube"
-from Windows
+2./ Make folder "youtube" 
 
-\\volumio\Internal Storage\youtube
+from Windows \\volumio\Internal Storage\youtube
 
 or ssh
 
 mkdir /data/INTERNAL/youtube
+
 
 3./ SSH command
 
 cd /data/plugins/music_service/youtube
 
 sudo npm update
+
 
 4./ On plugin Youtube and reboot Volumio
 
