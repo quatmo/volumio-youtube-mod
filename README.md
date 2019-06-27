@@ -33,4 +33,4 @@ Note:
 
 - If you are listening to this song or you want to download, just draggable seek the duration, it will download automatically saved to /mnt/INTERNAL/youtube
 
-- If you want to download multiple songs at the same time, just click download and click on the next download (it to download).
+- If you want to download multiple songs at the same time, just click download and click on the next song to download.
