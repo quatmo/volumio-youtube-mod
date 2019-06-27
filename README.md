@@ -34,3 +34,15 @@ Note:
 - If you are listening to this song or you want to download, just draggable seek the duration, it will download automatically saved to /mnt/INTERNAL/youtube
 
 - If you want to download multiple songs at the same time, just click download and click on the next song to download.
+
+
+
+-------------------------------------------------
+The Volumio Youtube extension allows you to queue up youtube music to your Volumio directly from the watch page!
+Chrome Extension for sending video to the Volumio directly from your browser
+
+Demo: https://www.youtube.com/watch?v=8W29QWHfKUk
+
+Extensions Volumio Youtube: https://chrome.google.com/webstore/detail/volumio-youtube/mcpnohbckjkjmgpehoooobhbeefnajna
+
+
