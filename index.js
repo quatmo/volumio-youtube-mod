@@ -20,7 +20,7 @@ var download = require('download');
 const { existsSync, createWriteStream } = require('fs');
 
 
-var ytapi_key = "AIzaSyAL89Gbry3powH7TGAFmw9rqCEZk1_QIdA";
+var ytapi_key = "AIzaSyAl1Xq9DwdE_KD4AtPaE4EJl3WZe2zCqg4";
 
 module.exports = Youtube;
 
@@ -426,8 +426,8 @@ Youtube.prototype.clearAddPlayTrack = function (track) {
 
                             // Start Download Youtube Opus file
                             var modalData = {
-                                title: "Download music from Youtube with Opus audio (webm)",
-                                message: "Title: " + info.title,
+                                title: "Youtube ID: " + track.uri,
+                                message: "Opus audio: " + info.title,
                                 size: 'sm',
                                 buttons: [
                                     {
@@ -581,8 +581,8 @@ Youtube.prototype.prefetch = function (nextTrack) {
             self.commandRouter.pushConsoleMessage("kiki:" + audio.url, []);
             // Start Download Youtube Opus file
             var modalData = {
-                title: "Download Opus file:",
-                message: "Title: " + info.title,
+                title: "Youtube ID: " + nextTrack.uri,
+                message: "Opus audio: " + info.title,
                 size: 'sm',
                 buttons: [
                     {
