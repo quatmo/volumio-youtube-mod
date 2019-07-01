@@ -28,6 +28,7 @@ Note:
 
 ![Image of Yaktocat](https://forum.volumio.org/resources/image/3242)
 
+See: https://forum.volumio.org/youtube-for-volumio-t6608-140.html
 
 -------------------------------------------------
 The Volumio Youtube extension allows you to queue up youtube music to your Volumio directly from the watch page!
