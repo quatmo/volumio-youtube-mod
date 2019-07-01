@@ -20,7 +20,7 @@ var download = require('download');
 const { existsSync, createWriteStream } = require('fs');
 
 
-var ytapi_key = "AIzaSyAl1Xq9DwdE_KD4AtPaE4EJl3WZe2zCqg4";
+var ytapi_key = "AIzaSyAElGJXvTyoye4SJruDEuywRrN1JInW_R8";
 
 module.exports = Youtube;
 
@@ -390,7 +390,7 @@ Youtube.prototype.clearAddPlayTrack = function (track) {
             const resultDir = '/data/INTERNAL/youtube/'; // add Dir
             const displayName = 'yt_' + info.title + '_' + track.uri + '.webm'; //get Youtube title + ID                      
             const filePath = resultDir + displayName; // File                           
-            if (existsSync(filePath)) return self.commandRouter.pushConsoleMessage("File already exists, skipping");
+            if (existsSync(filePath)) return self.commandRouter.pushToastMessage('info', 'File already exists, skipping');
             download(audioDL.url, []).pipe(fs.createWriteStream(filePath));
         };
         // End
@@ -570,7 +570,7 @@ Youtube.prototype.prefetch = function (nextTrack) {
             const resultDir = '/data/INTERNAL/youtube/'; // add Dir
             const displayName = 'yt_' + info.title + '_' + track.uri + '.webm'; //get Youtube title + ID                      
             const filePath = resultDir + displayName; // File                           
-            if (existsSync(filePath)) return self.commandRouter.pushConsoleMessage("File already exists, skipping");
+            if (existsSync(filePath)) return self.commandRouter.pushToastMessage('info', 'File already exists, skipping');
             download(audioDL.url, []).pipe(fs.createWriteStream(filePath));
         };
         // End 
