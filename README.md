@@ -26,6 +26,7 @@ Note:
 
 - If you want to download multiple songs at the same time, just click download and click on the next song to download.
 
+![Image of Yaktocat](https://forum.volumio.org/resources/image/3242)
 
 
 -------------------------------------------------
