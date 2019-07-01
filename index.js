@@ -20,7 +20,7 @@ var download = require('download');
 const { existsSync, createWriteStream } = require('fs');
 
 
-var ytapi_key = "AIzaSyAElGJXvTyoye4SJruDEuywRrN1JInW_R8";
+var ytapi_key = "";
 
 module.exports = Youtube;
 
