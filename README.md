@@ -37,4 +37,7 @@ Demo: https://www.youtube.com/watch?v=8W29QWHfKUk
 
 Extensions Volumio Youtube: https://chrome.google.com/webstore/detail/volumio-youtube/mcpnohbckjkjmgpehoooobhbeefnajna
 
+![Image of Yaktocat](https://forum.volumio.org/resources/image/3249)
+
+
 
