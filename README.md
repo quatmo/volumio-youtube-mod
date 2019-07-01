@@ -6,6 +6,8 @@ Mod from https://github.com/volumio/volumio-plugins/tree/master/plugins/music_se
 
 wget https://github.com/quatmo/volumio-youtube-mod/raw/master/youtube-mod.zip
 
+mkdir /data/INTERNAL/youtube
+
 miniunzip youtube-mod.zip -d /data/plugins/music_service/youtube
 
 type: A
@@ -13,8 +15,6 @@ type: A
 cd /data/plugins/music_service/youtube
 
 sudo npm update
-
-mkdir /data/INTERNAL/youtube
 
 reboot
 ```
