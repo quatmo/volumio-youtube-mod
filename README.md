@@ -5,7 +5,7 @@ Mod from https://github.com/volumio/volumio-plugins/tree/master/plugins/music_se
 
 1./ Off Youtube plugin
 
-2./ SSH command 
+2./ SSH command:
 ```
 
 wget https://github.com/quatmo/volumio-youtube-mod/raw/master/youtube-mod.zip
