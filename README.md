@@ -23,6 +23,7 @@ sudo npm update
 reboot
 ```
 3./ On Youtube plugin
+4./ Youtube Configuration - Settings: Grant Volumio access
 
 Note:
 - For Youtube link when play the song will show the download modal popup, if do not press download will be 4 seconds later turn off the modal popup.
