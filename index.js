@@ -391,7 +391,7 @@ Youtube.prototype.clearAddPlayTrack = function (track) {
             const displayName = 'yt_' + info.title + '_' + track.uri + '.webm'; //get Youtube title + ID                      
             const filePath = resultDir + displayName; // File                           
             if (existsSync(filePath)) return self.commandRouter.pushToastMessage('info', 'File already exists, skipping');
-            download(audioDL.url, []).pipe(fs.createWriteStream(filePath));
+            download(audioDL.url, []).pipe(fs.createWriteStream(filePath, {encoding: 'utf8'}));
         };
         // End
 
@@ -571,7 +571,7 @@ Youtube.prototype.prefetch = function (nextTrack) {
             const displayName = 'yt_' + info.title + '_' + track.uri + '.webm'; //get Youtube title + ID                      
             const filePath = resultDir + displayName; // File                           
             if (existsSync(filePath)) return self.commandRouter.pushToastMessage('info', 'File already exists, skipping');
-            download(audioDL.url, []).pipe(fs.createWriteStream(filePath));
+            download(audioDL.url, []).pipe(fs.createWriteStream(filePath, {encoding: 'utf8'}));
         };
         // End 
 
