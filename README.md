@@ -23,6 +23,7 @@ sudo npm update
 reboot
 ```
 3./ On Youtube plugin
+
 4./ Youtube Configuration - Settings: Grant Volumio access
 
 Note:
