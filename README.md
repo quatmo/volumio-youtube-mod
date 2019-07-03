@@ -3,6 +3,7 @@ Volumio Youtube download.  Download audio from Youtube with Opus audio (webm for
 Mod from https://github.com/volumio/volumio-plugins/tree/master/plugins/music_service/youtube
 
 
+Off Youtube plugin and SSH command 
 ```
 
 wget https://github.com/quatmo/volumio-youtube-mod/raw/master/youtube-mod.zip
@@ -19,7 +20,7 @@ sudo npm update
 
 reboot
 ```
-
+On Youtube plugin
 
 Note:
 - For Youtube link when play the song will show the download modal popup, if do not press download will be 4 seconds later turn off the modal popup.
