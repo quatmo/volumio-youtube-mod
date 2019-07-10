@@ -1,0 +1,17 @@
+[Unit]
+Description=Cloudcmd Daemon
+After=network.target
+After=local-fs-pre.target
+
+[Service]
+Type=simple
+WorkingDirectory=/lib/node_modules/cloudcmd 
+ExecStart=/usr/local/bin/node /lib/node_modules/cloudcmd/bin/cloudcmd.js
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=volumio
+User=volumio
+Group=volumio
+
+[Install]
+WantedBy=multi-user.target
