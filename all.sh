@@ -1,32 +1,11 @@
-sudo apt-get update && sudo apt-get install bzip2 && sudo apt-get install mc && sudo npm i cloudcmd -g && wget https://github.com/quatmo/volumio-youtube-mod/raw/master/spotify.zip && mkdir ./spotify && miniunzip spotify.zip -d ./spotify && cd ./spotify && volumio plugin install && cd.. && rm -Rf spotify* && wget https://github.com/quatmo/volumio-youtube-mod/raw/master/youtube.zip && mkdir ./youtube && miniunzip youtube.zip -d ./youtube && cd ./youtube && volumio plugin install && cd .. && rm -Rf youtube* && wget https://github.com/quatmo/volumio-youtube-mod/raw/master/youtube-mod.zip && mkdir /data/INTERNAL/youtube && miniunzip youtube-mod.zip -d /data/plugins/music_service/youtube && cd /data/plugins/music_service/youtube && sudo npm update && cd ~ && curl -O http://download.roonlabs.com/builds/roonbridge-installer-linuxarmv7hf.sh && chmod +x roonbridge-installer-linuxarmv7hf.sh && sudo ./roonbridge-installer-linuxarmv7hf.sh && wget https://github.com/dynobot/Linux-Audio-Adjustments/raw/master/basic-install.sh && chmod 755 basic-install.sh && sudo ./basic-install.sh
+sudo apt-get update && sudo apt-get install bzip2 && sudo apt-get install mc && wget https://github.com/quatmo/volumio-youtube-mod/raw/master/spotify.zip && mkdir ./spotify && miniunzip spotify.zip -d ./spotify && cd ./spotify && volumio plugin install && cd.. && rm -Rf spotify* && wget https://github.com/quatmo/volumio-youtube-mod/raw/master/youtube.zip && mkdir ./youtube && miniunzip youtube.zip -d ./youtube && cd ./youtube && volumio plugin install && cd .. && rm -Rf youtube* && wget https://github.com/quatmo/volumio-youtube-mod/raw/master/youtube-mod.zip && mkdir /data/INTERNAL/youtube && miniunzip youtube-mod.zip -d /data/plugins/music_service/youtube && cd /data/plugins/music_service/youtube && sudo npm update && cd ~ && curl -O http://download.roonlabs.com/builds/roonbridge-installer-linuxarmv7hf.sh && chmod +x roonbridge-installer-linuxarmv7hf.sh && sudo ./roonbridge-installer-linuxarmv7hf.sh && wget https://github.com/dynobot/Linux-Audio-Adjustments/raw/master/basic-install.sh && chmod 755 basic-install.sh && sudo ./basic-install.sh
 
 
 ---------------------
 sudo nano /usr/bin/Sound.sh
 ---------------------
-
-
-save to file cloudcmd.service
-
-[Unit]
-Description=Cloudcmd Daemon
-After=network.target
-After=local-fs-pre.target
-
-[Service]
-Type=simple
-WorkingDirectory=/lib/node_modules/cloudcmd 
-ExecStart=/usr/local/bin/node /lib/node_modules/cloudcmd/bin/cloudcmd.js
-StandardOutput=syslog
-StandardError=syslog
-SyslogIdentifier=volumio
-User=volumio
-Group=volumio
-
-[Install]
-WantedBy=multi-user.target
-
-
+sudo nano /usr/bin/Sound.sh
+- Bỏ dấu # của 2 dòng lệnh: #chrt -f -p 81 $(pidof mpd) và #taskset -c -p 1 $(pidof mpd). Ctrl X, Y, enter
 ---------------------
 
 config.txt
