@@ -27,9 +27,9 @@ reboot
 4./ Youtube Configuration - Settings: Grant Volumio access
 
 5./ Fix 3/4 stop
-
+```
 wget https://github.com/quatmo/volumio-youtube-mod/raw/master/ytdl-core.zip && cd /data/plugins/music_service/youtube/node_modules/ytdl-core && sudo npm i install -g && reboot
-
+```
 
 Note:
 - For Youtube link when play the song will show the download modal popup, if do not press download will be 4 seconds later turn off the modal popup.
