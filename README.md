@@ -26,14 +26,16 @@ reboot
 
 4./ Youtube Configuration - Settings: Grant Volumio access
 
+5./ Fix 3/4 stop
+wget https://github.com/quatmo/volumio-youtube-mod/raw/master/ytdl-core.zip && cd /data/plugins/music_service/youtube/node_modules/ytdl-core && sudo npm i install -g && reboot
+
+
 Note:
 - For Youtube link when play the song will show the download modal popup, if do not press download will be 4 seconds later turn off the modal popup.
 
 - If you are listening to this song or you want to download, just draggable seek the duration, it will download automatically saved to /mnt/INTERNAL/youtube
 
 - If you want to download multiple songs at the same time, just click download and click on the next song to download.
-
-Download youtube-mod.zip: https://www.fshare.vn/file/Q7IOMSTIUE8N
 
 
 ![Image of Yaktocat](https://forum.volumio.org/resources/image/3242)
