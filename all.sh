@@ -20,3 +20,5 @@ hdmi_force_hotplug=1
 
 #### Volumio i2s setting below: do not alter ####
 dtoverlay=hifiberry-dac
+
+wget http://volumio.github.io/volumio-plugins/plugins/volumio/armhf/music_service/onedrive_music_library/onedrive_music_library.zip && sudo mkdir ./onedrive_music_library && sudo chmod -R 777 ./onedrive_music_library && miniunzip onedrive_music_library.zip -d ./onedrive_music_library && cd ./onedrive_music_library && volumio plugin install && rm -Rf onedrive_music_library*
