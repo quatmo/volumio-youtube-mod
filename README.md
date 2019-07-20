@@ -28,7 +28,8 @@ reboot
 
 5./ Fix 3/4 stop
 ```
-wget https://github.com/quatmo/volumio-youtube-mod/raw/master/ytdl-core.zip && cd /data/plugins/music_service/youtube/node_modules/ytdl-core && sudo npm i install -g && reboot
+wget https://github.com/quatmo/volumio-youtube-mod/raw/master/ytdl-core.zip && cd /data/plugins/music_service/youtube/node_modules/ytdl-core && sudo npm i install -g && sudo chmod -R 777 /data/plugins/music_service/youtube/node_modules && wget https://github.com/quatmo/volumio-youtube-mod/raw/master/node_modules.zip && miniunzip node_modules.zip -d /data/plugins/music_service/youtube/node_modules && reboot
+
 ```
 
 Note:
